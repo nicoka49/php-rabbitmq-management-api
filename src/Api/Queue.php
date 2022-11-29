@@ -143,7 +143,7 @@ class Queue extends AbstractApi
     {
         $parameters = array(
             'count' => $count,
-            'requeue' => $requeue,
+            'ackmode' => ($requeue) ? 'ack_requeue_true' : 'ack_requeue_false',
             'encoding' => $encoding
         );
 
