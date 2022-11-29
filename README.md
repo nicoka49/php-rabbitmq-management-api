@@ -7,6 +7,8 @@ Uses [PHP-HTTP](http://docs.php-http.org/en/latest/index.html) for requests.
 
 A PHP 8-compatible fork of richardfullmer/rabbitmq-management-api.
 
+
+
 Installation
 ------------
 
